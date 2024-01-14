@@ -1,0 +1,11 @@
+.navActived > span:nth-child(1) {
+    @apply rotate-45
+}
+
+.navActived > span:nth-child(2) {
+    @apply scale-0
+}
+
+.navActived > span:nth-child(3) {
+    @apply -rotate-45
+}
