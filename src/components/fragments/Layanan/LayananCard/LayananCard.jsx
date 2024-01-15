@@ -13,7 +13,7 @@ function CardTemplate(props) {
     )
 }
 
-function Card() {
+function LayananCard() {
     return (
         <div className="grid grid-cols-1 items-start lg:grid-cols-4 lg:gap-y-5 md:grid-cols-2">
             <CardTemplate
@@ -69,4 +69,4 @@ function Card() {
     );
 }
 
-export default Card
+export default LayananCard

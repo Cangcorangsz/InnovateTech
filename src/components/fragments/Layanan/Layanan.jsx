@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './LayananCard/Card'
+import LayananCard from './LayananCard/LayananCard'
 
 function Layanan() {
     return (
@@ -8,7 +8,7 @@ function Layanan() {
                 <div className='container mx-auto'>
                     <h1 className='text-center text-2xl font-bold text-slate-950 lg:text-4xl'>Layanan Kami</h1>
                     <p className='text-sm text-center mx-8 lg:text-base'>Kenali layanan yang kami berikan</p>
-                    <Card />
+                    <LayananCard />
                 </div>
             </section>
         </>
